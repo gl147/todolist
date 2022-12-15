@@ -1,0 +1,10 @@
+.button {
+  border-radius: 3px;
+  background: aliceblue;
+  color: steelblue;
+  margin-right: 24px;
+  height: 40px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+}

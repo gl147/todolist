@@ -1,0 +1,43 @@
+/* from-to section */
+
+.card-wrapper {
+  border: 1px rgb(250, 248, 248) ridge;
+  border-radius: 5px;
+  padding: 40px;
+  font-size: 13px;
+  margin-top: 24px;
+}
+
+.from-to {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sender-name {
+  margin-right: 24px;
+}
+
+.receiver-name {
+  margin-right: 24px;
+}
+
+.to {
+  margin-right: 24px;
+  color: gray;
+}
+
+/* Message section */
+
+.message {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+/* respond section */
+
+.respond-options {
+  margin-top: 40px;
+  display: flex;
+}
