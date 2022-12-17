@@ -1,14 +1,17 @@
 import Header from "./components/Header/Header";
 import Card from "./components/Card/Card";
 import "./App.css";
-import "./data/mock";
+import mock from "./data/mock";
 
-function App(mock) {
+function App() {
   return (
     <div className="App">
       <div className="container">
         <Header />
-        <Card />
+        {console.log(mock)}
+        {mock.map((e) => (
+          <Card element={e} />
+        ))}
       </div>
     </div>
   );
