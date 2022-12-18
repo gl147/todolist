@@ -1,5 +1,6 @@
 const mock = [
   {
+    key: 1,
     senderName: "Eric Koslow",
     receiverName: "Madison Kochenderfer",
     senderAvaURL:
@@ -9,6 +10,7 @@ const mock = [
       "Great job on that presentation to the Board yesterday everybody was really impressed!",
   },
   {
+    key: 2,
     senderName: "John Snow",
     receiverName: "Ygritte",
     senderAvaURL:
@@ -17,6 +19,7 @@ const mock = [
     message: "What the f*ck should I know?!",
   },
   {
+    key: 3,
     senderName: "Luke Skywalker",
     receiverName: "Darth Vader",
     senderAvaURL:
@@ -25,6 +28,7 @@ const mock = [
     message: "Where is my mother?",
   },
   {
+    key: 4,
     senderName: "Morthy Smith",
     receiverName: "Rick Sanches",
     senderAvaURL:

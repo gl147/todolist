@@ -5,12 +5,11 @@ import mock from "./data/mock";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <div className="container">
         <Header />
-        {console.log(mock)}
-        {mock.map((e) => (
-          <Card element={e} />
+        {mock.map((message) => (
+          <Card message={message} />
         ))}
       </div>
     </div>
