@@ -1,9 +1,9 @@
-import "./Avatar.css";
+import "./Avatar.scss";
 
-const Avatar = (props) => {
+const Avatar = ({ url }) => {
   return (
     <div className="ava-img">
-      <img src={props.avaURL} alt="" />
+      <img src={url} alt="" />
     </div>
   );
 };

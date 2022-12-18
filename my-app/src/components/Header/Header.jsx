@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./Header.scss";
 
 const Header = () => {
   return <div className="header">Public Praise</div>;

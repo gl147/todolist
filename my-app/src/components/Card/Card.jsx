@@ -1,21 +1,18 @@
-import "./Card.css";
+import "./Card.scss";
 import Avatar from "./Avatar/Avatar";
 import Button from "./Button/Button";
 
-const Card = (props) => {
+const Card = ({ message }) => {
   return (
     <div className="card-wrapper">
       <div className="from-to">
-        <Avatar />
-        <div className="sender-name">Eric Koslow</div>
+        <Avatar url={message?.senderAvaURL} />
+        <div className="sender-name">{message?.senderName}</div>
         <div className="to">TO</div>
-        <Avatar />
-        <div className="receiver-name">Madison Kochenderfer</div>
+        <Avatar url={message?.receiverAvaURL} />
+        <div className="receiver-name">{message?.receiverName}</div>
       </div>
-      <div className="message">
-        Great job on that presentation to the Board yesterda' everybody was
-        really impressed!
-      </div>
+      <div className="message">{message?.message}</div>
       <div className="respond-options">
         <Button text="Chop Wood, Carry Water" />
         <Button text="Ship, Shipmate, Self" />
